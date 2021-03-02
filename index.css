@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sans&family=Signika:wght@500&display=swap');
+
+body{
+    margin:20px;
+    font-family: "MaisonNeue",-apple-system,"Helvetica Neue",Helvetica,"Hiragino Sans",sans-serif;
+}
+.button{
+    border-radius: 25px;
+    padding: 20px;
+    color: rgb(57, 57, 177);
+    text-decoration: none;
+    background-color: rgb(248, 206, 206);
+}
+.dot{
+    color: rgb(47, 47, 219);
+}
+.navigation-bar{
+   background-color: #FFFFFF;
+    display: flex;
+     align-items: center; 
+     justify-content: space-between; 
+}
+
+.bar-item{
+  background-color: #FFFFFF;
+    display: flex; 
+    flex-wrap: initial; 
+     justify-content:center;
+   
+}
+.active-item{
+    margin:0px 35px 0px 40px;
+    color: black;
+    border-bottom: 5px solid rgb(77, 77, 173);
+    
+}
+.other-item{
+    /* margin-left: 5px; */
+    margin:0px 45px 0px 5px;
+    color:grey;
+    text-decoration: none;
+}
+.page-content{
+    margin: 20px 0px 90px 150px ;
+    /* display: flex; */
+   
+
+}
+.main-heading{
+    font-size: 60px;
+    display: inline;
+}
+.info{
+    font-size: 20px;
+    color: grey;
+}
+.account-button{
+    border-radius: 25px;
+     padding: 17px;
+    text-decoration:none;
+    color: white;
+    background-color: rgb(93, 64, 221);
+}
+.arrow{
+    margin-top: 5px;
+    margin-left:30px;
+    width:40px;
+}
+
+.bottom-content{
+    margin:6px 950px 0px 150px ;
+    border-radius: 10px;
+    padding:2px 2px;
+    display: flex;
+   justify-content:space-evenly;
+   box-shadow: 1px 1px rgb(238, 240, 240);
+    background-color: rgb(247, 247, 248); 
+}
+.user-img{
+    width:30px;
+    height: 30px;
+   
+
+}
+.user-tick{
+    width:30px;
+    height:30px;
+}
+.user-button{
+   
+    width: 20px;
+    height: 10px;
+    border: 0px solid pink;
+    border-radius: 14px;
+}
+.pink{
+    background-color: pink;
+}
+.active{
+    background-color: white;
+    box-shadow: 5px 4px rgb(247, 247, 248);
+}
+.orange{
+background-color: orangered;
+}
+.blue{
+    background-color:rgb(124, 199, 124);
+}
+.red{
+    background-color:rgb(248, 224, 172);
+}
+
+/* @media(max-width:600px){ */
+.image{
+ /* width:cal(50%-16px); */
+ float: right;
+ width: 800px;
+ height: 500px;
+
+ margin-right: auto;
+ /* margin-left: ; */
+}
